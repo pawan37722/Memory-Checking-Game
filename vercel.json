@@ -1,0 +1,6 @@
+{
+  "framework": "vite",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "crons": [{ "path": "/api/cron/reset-daily", "schedule": "30 6 * * *" }]
+}
